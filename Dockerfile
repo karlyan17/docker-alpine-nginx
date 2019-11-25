@@ -8,4 +8,4 @@ EXPOSE 80
 
 STOPSIGNAL SIGTERM
 
-ENTRYPOINT ["nginx", "-g", "daemon off"]
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
